@@ -10,15 +10,15 @@ class Zene {
     get cim(){
         return this.#cim;
     }
-    set cim(zcim){
-        this.#cim = zcim;
+    set cim(cim){
+        this.#cim = cim;
     }
 
     get hosz(){
         return this.#hosz;
     }
-    set hosz(zhosz){
-        this.hosz = zhosz;
+    set hosz(hosz){
+        this.hosz = hosz;
     }
     static oszeg(hosz){
         ohosz = ohosz+hosz;
