@@ -20,6 +20,10 @@ class Zene {
     set hosz(zhosz){
         this.hosz = zhosz;
     }
+    static oszeg(hosz){
+        ohosz = ohosz+hosz;
+        return ohosz;
+    }
 }
 const zenek = [];
 let ohosz = 0;
@@ -28,8 +32,7 @@ function listaadd(){
     let hosz = parseFloat(document.getElementById("hos").value);
     let zene = new Zene(cim, hosz);
     zenek.push(zene);
-    ohosz = ohosz+hosz;
-    document.getElementById("ohos").innerHTML = ohosz;
+    document.getElementById("ohos").innerHTML = Zene.oszeg(hosz);
 }
 function init(){
     document.getElementById("hozzad").addEventListener('click', listaadd);
