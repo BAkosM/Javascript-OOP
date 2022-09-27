@@ -1,1 +1,1 @@
-# Javascript-OOP
+# Javascript-OOP Benedek Akos Marcell
